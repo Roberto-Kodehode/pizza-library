@@ -6,6 +6,8 @@ body {
   background-image: url(background.png);
   background-size: cover;
   background-position: fixed;
+  margin: 0 auto;
+  padding: 0;
 }
 
 h1 {
@@ -18,6 +20,11 @@ h1 {
   text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
+#my-form {
+  width: 80%;
+  display: flex;
+}
+
 p {
   color: antiquewhite;
 }
@@ -28,17 +35,26 @@ div:nth-child(even) {
   background-color: #920000;
 }
 
-.klasse {
-  background-color: aqua;
-}
-
 input {
-  background-color: aqua;
   padding: 8px 4px;
   border-radius: 16px;
+}
+
+#text-input {
+  width: 10%;
+  background-color: rgb(115, 255, 0);
+}
+
+#description-input {
+  background-color: blue;
+  width: 50%;
 }
 
 button {
   padding: 8px 4px;
-  border-radius: 16px;
+  border-radius: 4px;
+}
+
+#pizza-list {
+  width: 80%;
 }
